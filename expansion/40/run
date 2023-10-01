@@ -12,7 +12,7 @@ trap '[[ $BASH_SUBSHELL -gt 0 ]] && exit' DEBUG
 if (( RESPONSE == CHALLENGE ))
 then
 	echo "Success! Here's part of the flag:"
-	cat /flag | head -c -n10
+	cat /flag | head -c10
 else
 	echo "Wrong!"
 	cat /flag | md5sum
