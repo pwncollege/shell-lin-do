@@ -7,6 +7,7 @@ resources:
 
     - [Bash reference manual](https://www.gnu.org/software/bash/manual/html_node/index.html)
     - [The ultimate resource in shell scripting (much of which inspired this dojo!](https://mywiki.wooledge.org/)
+    - [Apple's Surprisingly Salient Shell Scripting Synopsys](https://developer.apple.com/library/archive/documentation/OpenSource/Conceptual/ShellScripting/ShellScriptSecurity/ShellScriptSecurity.html)
 
 challenges:
 - id: "10"
