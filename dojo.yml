@@ -1,5 +1,7 @@
 id: "shell-lin-do"
 name: The Art of the Shell
+award:
+  emoji: 🐚
 modules:
 - id: "first"
 - id: "expansion"
