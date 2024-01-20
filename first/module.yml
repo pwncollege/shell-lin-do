@@ -1,0 +1,13 @@
+name: The Beginning
+resources:
+- name: Resources
+  type: markdown
+  content: |
+    You need not walk this path alone: others have done so before you.
+
+    - [Bash reference manual](https://www.gnu.org/software/bash/manual/html_node/index.html)
+    - [The ultimate resource in shell scripting (much of which inspired this dojo!](https://mywiki.wooledge.org/)
+
+challenges:
+- id: "10"
+  name: The Transient Path

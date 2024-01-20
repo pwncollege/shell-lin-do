@@ -1,0 +1,19 @@
+name: Inputting a Surprise
+resources:
+- name: Resources
+  type: markdown
+  content: |
+    Wisdom harkens from a long-gone age.
+    Will you heed it?
+    
+    - [Common pitfalls in shell scripting (many of which lead to security issues in these levels!](https://mywiki.wooledge.org/BashPitfalls)
+
+challenges:
+- id: "10"
+  name: Dance of the Disguised
+  description: In the dance of the disguised, a surprise twirls gracefully. Can you keep pace with its rhythm?
+
+- id: "30"
+  name: Script of the Silent
+  description: In the script of the silent, each pause, each absence speaks volumes. Can you hear the unspoken lines?
+

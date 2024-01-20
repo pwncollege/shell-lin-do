@@ -1,0 +1,13 @@
+name: Other Challenges
+resources:
+- name: Resources
+  type: markdown
+  content: Wisdom develops in its own time. This cannot be rushed.
+
+challenges:
+- id: "10"
+  name: Secrets of the Processes
+  description: Journey down the labyrinth of processes. In their numbers, there is a unique tale to be told.
+- id: "20"
+  name: Puzzle of the Perverse Predicates
+  description: Perverse predicates pose a puzzle. Can you solve it by bending the rules?
