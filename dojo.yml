@@ -1,5 +1,6 @@
 id: "shell-lin-do"
 name: The Art of the Shell
+type: public
 award:
   emoji: 🐚
 modules:
