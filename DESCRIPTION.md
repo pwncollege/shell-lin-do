@@ -5,3 +5,7 @@ It is an _Art_, and those that master it can unlock great power unknown to the r
 
 In this dojo, we shall study this art together.
 Perhaps, one day, we will look back on this journey with a feeling of fulfillment and say: `exit 0`.
+
+This dojo is open source!
+Contribute [here](https://github.com/pwncollege/shell-lin-do).
+Questions? Comments? Open an issue on github or contact Zardus through whatever channel is most convenient.
