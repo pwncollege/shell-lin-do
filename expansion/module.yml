@@ -77,3 +77,6 @@ challenges:
   name: The Commanded Condition
   description: The condition guards the flag. Command it to be gone.
 
+- id: "43"
+  name: Index of Insanity
+  description: When you cannot find the good within the array, all hope may be lost. At the right time, a whispered word can sway the balance.
