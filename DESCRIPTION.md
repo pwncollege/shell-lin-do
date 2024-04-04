@@ -8,4 +8,4 @@ Perhaps, one day, we will look back on this journey with a feeling of fulfillmen
 
 This dojo is open source!
 Contribute [here](https://github.com/pwncollege/shell-lin-do).
-Questions? Comments? Open an issue on github or contact Zardus through whatever channel is most convenient.
+Questions? Comments? Open an issue on github or contact Zardus through whatever channel is most convenient!
