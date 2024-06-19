@@ -8,7 +8,7 @@ cd $WORKDIR
 
 doit() {
 	echo -n ""
-	read INPUT < <(head -n1 | tr -d "[A-Za-z.]")
+	read INPUT < <(head -n1 | tr -d "[A-Za-z./]")
 	eval "$INPUT"
 }
 
