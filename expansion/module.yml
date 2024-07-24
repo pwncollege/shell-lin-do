@@ -8,7 +8,7 @@ resources:
 
     - `# man 7 glob` (for file name matching)
     - `# help` (documentation for shell builtins)
-    - [Bash reference on parameter expansion](https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html)
+    - [Bash reference on Shell Expansions](https://www.gnu.org/software/bash/manual/html_node/Shell-Expansions.html)
 
 challenges:
 
