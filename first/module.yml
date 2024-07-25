@@ -12,3 +12,7 @@ resources:
 challenges:
 - id: "10"
   name: The Transient Path
+- id: "20"
+  name: Ferocious Functionality
+  description: |
+    The shell is fierce, but fair. Fly far, and find flags.
