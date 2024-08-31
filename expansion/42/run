@@ -7,6 +7,7 @@ RESPONSE="$1"
 
 # Alright, go for it.
 #set -T
+#readonly BASH_SUBSHELL
 #trap '[[ $BASH_SUBSHELL -gt 0 ]] && exit' DEBUG
 
 if (( RESPONSE == CHALLENGE ))
