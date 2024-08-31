@@ -1,6 +1,6 @@
 #!/usr/bin/env -iS /opt/pwn.college/bash
 
-# This neat trick was generously contributed by 
+# This neat trick was generously contributed by armax00
 
 PATH=/usr/bin
 
