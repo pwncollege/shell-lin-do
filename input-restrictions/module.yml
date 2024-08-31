@@ -42,6 +42,12 @@ challenges:
   name: Your Misplaced Memories
   description: When restrictions rule your thoughts, you might find the flag in a misplaced memory.
 
+- id: "19"
+  name: Exclamations of Execution
+  description: In the depth of confusion, seek your true name and find yourself anew.
+  visibility:
+    start: "2029-02-09T00:00:00-07:00"
+
 - id: "20"
   name: Precision of Parameters
   description: Precision is a virtue, where a whisper can be louder than a shout. Speak succinctly, and the flag will respond.
