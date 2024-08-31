@@ -77,6 +77,10 @@ challenges:
   name: The Commanded Condition
   description: The condition guards the flag. Command it to be gone.
 
+- id: "42.1"
+  name: The Dreadful Discovery
+  description: In ages past, just two invocations banished command injections. Now we need three. Can you discover HAL50000's terrifying realization?
+
 - id: "43"
   name: Index of Insanity
   description: When you cannot find the good within the array, all hope may be lost. At the right time, a whispered word can sway the balance.
