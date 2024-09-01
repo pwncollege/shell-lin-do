@@ -1,4 +1,4 @@
 #!/usr/bin/env -iS /opt/pwn.college/bash
 
-[ "$1" == "ping" ] && echo "pinged!" && "$0" pong
+[ "$1" == "ping" ] && echo "pinged!" && read && "$0" pong
 [ "$1" == "pong" ] && echo "ponged!"
