@@ -46,6 +46,10 @@ challenges:
   name: Exclamations of Execution
   description: In the depth of confusion, seek your true name and find yourself anew.
 
+- id: "19_next"
+  name: The Stumble From Safety
+  description: A perfect stumble can reveal the path of infinite potential. Is safety binding, or just an illusion?
+
 - id: "20"
   name: Precision of Parameters
   description: Precision is a virtue, where a whisper can be louder than a shout. Speak succinctly, and the flag will respond.
