@@ -9,7 +9,7 @@ cd $WORKDIR
 
 doit() {
 	echo -n ""
-	cat dangerous-script.sh | tr -cd "[\n $\-/0-9A-Za-z]" | grep -E "^(echo|read|sleep)" > safe-script.sh
+	cat dangerous-script.sh | tr -cd "[\n $\-/0-9A-Za-z]" | grep -E "^(echo|read|sleep) " > safe-script.sh
 	bash safe-script.sh
 }
 
