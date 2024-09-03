@@ -1,4 +1,4 @@
-name: Abusing Variable Expansion, Globbing, and the Like
+name: Abusing Expansion
 resources:
 - name: Resources
   type: markdown
