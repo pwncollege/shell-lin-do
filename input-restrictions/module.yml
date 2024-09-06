@@ -51,6 +51,10 @@ challenges:
   description: In speaking truth, one can reveal mysteries.
 
 - id: "19-next-2"
+  name: A String of Secrecy
+  description: The path to secrets is not always direct. When so, one must first suggest, and only then demand.
+
+- id: "19-next-3"
   name: The Stumble From Safety
   description: A perfect stumble can reveal the path of infinite potential. Is safety binding, or just an illusion?
 
