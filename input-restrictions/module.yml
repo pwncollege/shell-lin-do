@@ -54,6 +54,10 @@ challenges:
   name: A String of Secrecy
   description: The path to secrets is not always direct. When so, one must first suggest, and only then demand.
 
+- id: "19-next-2.5"
+  name: Internalization of Power
+  description: The power to reach the flag has always been within you. Reach inside and activate it.
+
 - id: "19-next-3"
   name: The Stumble From Safety
   description: A perfect stumble can reveal the path of infinite potential. Is safety binding, or just an illusion?
