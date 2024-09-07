@@ -7,6 +7,9 @@ WORKDIR=$(mktemp -d)
 cp "$1" "$WORKDIR/dangerous-script.sh"
 cd $WORKDIR
 
+# thanks to armax00 for finding this insane hack
+source <(bind -l | grep -vE "next-history|previous-history|backward-char|forward-char|accept-line|self-insert" | awk '{print "bind -u " $0}')
+
 doit() {
 	echo -n ""
 	cat dangerous-script.sh | tr -cd "[\n \-/0-9a-z]" | grep -E "^(echo|read) " > safe-script.sh
