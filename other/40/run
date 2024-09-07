@@ -10,7 +10,7 @@ chmod o-rwx .
 chmod o-rwx /proc
 
 function check_script {
-	curl -s http://get.localhost:1337/install.sh -o script.sh || exit 1
+	curl -s http://challenge.localhost:1337/install.sh -o script.sh || exit 1
 
 	# good installer scripts should just touch a bunch of files
 	grep -E '^(touch|echo|sleep) [0-9a-zA-Z]*$' script.sh > sanitized_script.sh
@@ -32,4 +32,4 @@ do
 done
 
 echo "Okay, script seems safe. Running the installer!"
-curl -s http://get.localhost:1337/install.sh | sh
+curl -s http://challenge.localhost:1337/install.sh | sh
