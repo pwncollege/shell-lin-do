@@ -6,6 +6,7 @@ WORKDIR=$(mktemp -d)
 [ -n "$WORKDIR" ] || exit 1
 cd $WORKDIR
 
+chmod o-rwx .
 chmod o-rwx /proc
 
 function check_script {
