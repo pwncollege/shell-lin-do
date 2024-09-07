@@ -17,3 +17,6 @@ challenges:
 - id: "40"
   name: Deception, Born of Patience
   description: Even those who mean to steal our flags may seem harmless and patient, until they strike.
+- id: "41"
+  name: Deception, Born of Wisdom
+  description: The wise know, without being told, when to convey truth, and when to transmit venom.
