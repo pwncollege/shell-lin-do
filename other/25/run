@@ -22,6 +22,7 @@ do
 done
 IFS="$OLDIFS"
 
+[ -e "$FILE" ] && exit 6 # fix clever bypass by amateurhour
 umask 777
 touch "$DEST"
 echo $FLAG > "$DEST"
