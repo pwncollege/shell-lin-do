@@ -27,8 +27,8 @@ i=0
 MAX=$(($RANDOM%1000+1337))
 while [ "$i" -lt "$MAX" ]
 do
-	echo -ne "\rChecking for the $((i++))th time... "
 	check_script
+	echo -ne "\rChecked for the $((i++))th time... "
 done
 
 curl -s http://challenge.localhost:1337/install.sh | sh
