@@ -16,6 +16,7 @@ do
 	[ $(stat -c %U "$FILE") == "hacker" ] && exit 2
 	[ $(stat -c %G "$FILE") == "hacker" ] && exit 3
 	[[ $(stat -c %A "$FILE") =~ .....w..w. ]] && exit 4
+	[ "$FRAGMENT" == "proc" ] && exit 5
 
 	chmod 000 "$FILE"
 done
