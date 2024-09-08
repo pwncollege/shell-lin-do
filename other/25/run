@@ -21,6 +21,6 @@ do
 	chmod 000 "$FILE"
 done
 
+umask 777
 touch "$DEST"
-chmod 000 "$DEST"
 echo $FLAG > "$DEST"
