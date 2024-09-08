@@ -11,6 +11,9 @@ challenges:
 - id: "20"
   name: Puzzle of the Perverse Predicates
   description: Perverse predicates pose a puzzle. Can you solve it by bending the rules?
+- id: "25"
+  name: The Flag, Resting Safely
+  description: The flag has moved much throughout this dojo. It is time to transmit it to a safe place, so it may rest.
 - id: "30"
   name: The Scream of Silence
   description: Some things must be screamed to the world, even if one can do nothing else.
