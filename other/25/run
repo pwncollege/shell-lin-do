@@ -6,7 +6,7 @@ read FLAG < /flag
 read DEST < <(tr -cd "[a-z0-9/]" <<< "$1")
 [[ "$DEST" == /* ]] || exit 1
 
-OLDIFS=$IFS
+OLDIFS="$IFS"
 IFS="/"
 FILE=""
 for FRAGMENT in $DEST
@@ -20,6 +20,7 @@ do
 
 	chmod 000 "$FILE"
 done
+IFS="$OLDIFS"
 
 umask 777
 touch "$DEST"
