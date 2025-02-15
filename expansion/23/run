@@ -1,22 +1,15 @@
 #!/usr/bin/env -iS /opt/pwn.college/bash
 
-PATH=/usr/bin
-WORKDIR=$(mktemp -d /tmp/tmpXXXXXXX) || exit 1
-cd $WORKDIR
-
-echo -e "Welcome! This is a launcher that lets you set an environment variable and then run a program!\nUsage: $0 VARNAME VARVALUE PROGRAM"
-[ "$#" -eq 3 ] || exit 2
-
-if [ "$3" != "fortune" ]
+if [[ "$#" -ne 1 ]]
 then
-	echo "Only 'fortune' is supported right now!"
-	exit 3
-else
-	cp /usr/games/fortune $WORKDIR
-	PROGRAM="$WORKDIR/fortune"
+	echo "Usage: $0 SKILL_LEVEL"
+	exit 1
 fi
 
-[[ "$1" = "SKILL_LEVEL" ]] || exit 5
-[[ "$2" -eq 1337 ]] || exit 6
-declare -- "$1"="$2"
-$PROGRAM
+if [[ "$1" -eq 1337 ]]
+then
+	echo "Not skilled enough!"
+	exit 2
+fi
+
+echo "You are quite skilled!"
