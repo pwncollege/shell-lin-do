@@ -21,3 +21,7 @@ challenges:
   name: One Single Slice
   description: Calculate your attack well, and your swift slice will spoil the safety of your foe.
 
+- id: "50"
+  name: The Treacherous Title
+  description: The names we call ourselves define, in part, who we are. Can you find the true name of the flag?
+
