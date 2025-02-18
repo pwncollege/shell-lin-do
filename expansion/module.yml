@@ -56,6 +56,10 @@ challenges:
   name: Tale of the Test
   description: In every test, there is room for a twist. Find a way to bring it to life, and the flag will be within your grasp.
 
+- id: "24"
+  name: Your Shattered Sanity
+  description: Be careful to keep your mind whole. Once shattered, you cannot trust what parts of it exist.
+
 - id: "25"
   name: Masquerade of the Self
   description: In the deceptive dance of the shell, nothing is as it seems. Master the art of illusion, and the path to truth will unveil itself.
