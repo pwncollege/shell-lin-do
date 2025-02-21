@@ -7,6 +7,7 @@ resources:
     Will you heed it?
     
     - [Common pitfalls in shell scripting (many of which lead to security issues in these levels!](https://mywiki.wooledge.org/BashPitfalls)
+    - [More weirdness!](http://www.etalabs.net/sh_tricks.html)
 
 challenges:
 - id: "10"
@@ -25,3 +26,6 @@ challenges:
   name: The Treacherous Title
   description: The names we call ourselves define, in part, who we are. Can you find the true name of the flag?
 
+- id: "60"
+  name: The Dangling Danger
+  description: Despite focusing on the end goal, we often easily miss what comes at the end. Ironic.
