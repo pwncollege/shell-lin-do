@@ -1,0 +1,5 @@
+#!/usr/bin/env -iS /opt/pwn.college/bash
+
+read FLAG < /flag
+read FLAG
+echo "$FLAG"

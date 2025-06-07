@@ -33,3 +33,7 @@ challenges:
 - id: "61"
   name: The Evil End
   description: You can try hard, and you can get far, but in the end, omission can cost you the flag.
+
+- id: "70"
+  name: An Eroded Erasure
+  description: You strive to erase your mistakes in life, but errors compound errors, and the flag is revealed.
