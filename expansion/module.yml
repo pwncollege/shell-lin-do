@@ -73,6 +73,10 @@ challenges:
   name: Secrets of the Shell
   description: The shell holds many secrets, waiting for those patient and brave enough to uncover them.
 
+- id: "40-1"
+  name: The Swap, Scheming
+  description: A single look can change an unknowable mystery into a thing quite predictable.
+
 - id: "41"
   name: Shell Sorcery
   description: This is where the arcane becomes algorithm, and every keystroke is a spell invoking the power of the command line.

@@ -1,9 +1,8 @@
 #!/usr/bin/env -iS /opt/pwn.college/bash
 
-PATH=/usr/bin
+# props to HyperCube for the idea for this challenge
 
-CHALLENGE=$RANDOM$RANDOM$RANDOM$RANDOM$RANDOM
-readonly CHALLENGE
+PATH=/usr/bin
 RESPONSE="$1"
 
 # This disables command injection. If you can find a bypass of it, let Zardus know!
@@ -11,11 +10,11 @@ set -T
 readonly BASH_SUBSHELL # props to HAL50000 for the bypass necessitating this fix
 trap '[[ $BASH_SUBSHELL -gt 0 ]] && exit' DEBUG
 
-if (( RESPONSE == CHALLENGE ))
+if (( RESPONSE == RANDOM ))
 then
 	echo "Success!"
 	cat /flag
 else
 	echo "Wrong!"
-	#cat /flag | md5sum
+	rm /flag
 fi
