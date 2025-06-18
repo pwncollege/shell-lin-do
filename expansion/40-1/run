@@ -2,6 +2,8 @@
 
 # props to HyperCube for the idea for this challenge
 
+# HINT: /opt/pwn.college/bash uses /bin/bash. Double-check which bash you do your prep work in...
+
 PATH=/usr/bin
 RESPONSE="$1"
 
