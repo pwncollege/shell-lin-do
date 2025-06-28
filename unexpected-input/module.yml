@@ -37,3 +37,7 @@ challenges:
 - id: "70"
   name: An Eroded Erasure
   description: You strive to erase your mistakes in life, but errors compound errors, and the flag is revealed.
+
+- id: "80"
+  name: Echoes in Silence
+  description: No scream will breach this barrier, only a perfectly palced whisper shall ripple the void.
