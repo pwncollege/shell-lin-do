@@ -64,6 +64,10 @@ challenges:
   name: Untrustworthy Utterances
   description: Spoken slyly, the wrong pair of words can cause more ruin than the strongest pair of fists.
 
+- id: "24-2"
+  name: Echoes in Silence
+  description: No scream will breach this barrier, only a perfectly placed whisper shall ripple the void.
+
 - id: "25"
   name: Masquerade of the Self
   description: In the deceptive dance of the shell, nothing is as it seems. Master the art of illusion, and the path to truth will unveil itself.
@@ -71,7 +75,6 @@ challenges:
 - id: "30"
   name: Journey of the PATH
   description: In the journey of the PATH, each step uncovers new commands, new potentials.
-
 
 - id: "40"
   name: Secrets of the Shell
